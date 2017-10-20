@@ -1,7 +1,7 @@
 {
-  "name": "litecore-lib",
+  "name": "khcore-lib",
   "version": "0.13.21",
-  "description": "A pure and powerful JavaScript Litecoin library.",
+  "description": "A pure and powerful JavaScript KHcoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "build": "gulp"
   },
   "contributors": [
+    {
+      "name": "In Mean",
+      "email": "inmean@khmercrypto.com"
+    },
     {
       "name": "Charlie Lee",
       "email": "coblee@litecoin.org"
@@ -61,7 +65,7 @@
     }
   ],
   "keywords": [
-    "litecoin",
+    "khcoin",
     "bitcoin",
     "transaction",
     "address",
@@ -79,7 +83,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/litecoin-project/litecore-lib.git"
+    "url": "https://github.com/inmean/khcore-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -97,7 +101,7 @@
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.9.1",
-    "litecore-build": "litecoin-project/litecore-build",
+    "litecore-build": "inmean/khcore-build",
     "sinon": "^1.13.0"
   },
   "license": "MIT"

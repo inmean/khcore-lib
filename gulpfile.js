@@ -1,5 +1,5 @@
 
 
-var litecoreTasks = require('litecore-build');
+var khcoreTasks = require('khcore-build');
 
-litecoreTasks('lib');
+khcoreTasks('lib');
